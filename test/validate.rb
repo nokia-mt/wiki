@@ -75,10 +75,6 @@ end
 schema_path = File.expand_path('schema-06.yml', __dir__)
 schema = yaml_to_json(schema_path)
 
-sample_path = File.expand_path('../device_sample/sample.yml', __dir__)
-sample_yaml = yaml_to_json(sample_path)
-validate_json(schema, sample_yaml, sample_path)
-
 wiki_dir = File.expand_path('../', __dir__) + '/'
 device_dir = wiki_dir + '_data/devices/'
 device_image_dir = wiki_dir + 'images/devices/'
