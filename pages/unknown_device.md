@@ -21,7 +21,7 @@ You clicked or were sent here because you did not find your device listed. Anyth
 
 - Can I do anything to get my device supported?
 
-  ```Sorry, we don't take ``` [device requests]({{ "device_requests.html" | relative_url }}){: .link-in-code }.
+  ```Sorry, we don't take ``` [device requests](https://wiki.lineageos.org/device_requests.html){: .link-in-code }.
 
 - What can I do?
 

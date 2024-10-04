@@ -20,8 +20,8 @@ Do **not** continue after something fails!
 ## Basic requirements
 
 1. Read through the instructions at least once before actually following them, so as to avoid any problems due to any missed steps!
-2. Make sure your computer has `adb`{% unless device.install_method == 'heimdall' or device.install_method == 'dd' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
-3. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
+2. Make sure your computer has `adb`{% unless device.install_method == 'heimdall' or device.install_method == 'dd' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "https://wiki.lineageos.org/adb_fastboot_guide.html" }}).
+3. Enable [USB debugging]({{ "https://wiki.lineageos.org/adb_fastboot_guide.html#setting-up-adb" }}) on your device.
 {%- if device.models %}
 4. Make sure that your model is actually listed in the "Supported models" section [here]({{ device | device_link | append: "#supported-models" | relative_url }}) (exact match required!)
 {%- endif %}
@@ -143,7 +143,7 @@ There are no recovery installation instructions for this discontinued device.
 {% include alerts/note.html content="If you don't want to install any add-on (such as Google Apps), you can skip this whole section!" %}
 
 {%- capture gapps_note %}
-If you want to install Google Apps add-on package (use the `{{ userspace_architecture }}` architecture), you can download it from [here]({{ "gapps" | relative_url }}).
+If you want to install Google Apps add-on package (use the `{{ userspace_architecture }}` architecture), you can download it from [here]({{ "https://wiki.lineageos.org/gapps" }}).
 This add-on needs to be installed **before** booting into LineageOS for the first time!
 {%- endcapture %}
 {% include alerts/warning.html content=gapps_note %}

@@ -47,7 +47,7 @@ Make sure to fill out the template with accurate information, and in the format 
 
   {% include alerts/important.html content="Please do not post multiple issues within the same report, as bugs can be either affecting different maintainers or some may be device specific where others are not" %}
 
-  {%- capture content %}[Logcats]({{ "how-to/logcat/" | relative_url }}) *must* be attached for all Android bugs, and *must* be captured right after reproducing the issue.{% endcapture %}
+  {%- capture content %}[Logcats](https://wiki.lineageos.org/how-to/logcat/) *must* be attached for all Android bugs, and *must* be captured right after reproducing the issue.{% endcapture %}
   {% include alerts/important.html content=content %}
 
 <a href="https://gitlab.com/LineageOS/issues/android/-/issues"><button class="btn btn-primary">Go to Android bugs</button></a>

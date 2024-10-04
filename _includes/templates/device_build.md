@@ -66,7 +66,7 @@ makefiles, jump down to [_Extract proprietary blobs_](#extract-proprietary-blobs
 ### Extract proprietary blobs
 
 {% capture extracting_blobs_from_zips %}
-This step requires to have a device already running the latest LineageOS, based on the branch you wish to build for. If you don't have access to such device, refer to [Extracting proprietary blobs from installable zip]({{ "extracting_blobs_from_zips.html" | relative_url }}).
+This step requires to have a device already running the latest LineageOS, based on the branch you wish to build for. If you don't have access to such device, refer to [Extracting proprietary blobs from installable zip](https://wiki.lineageos.org/extracting_blobs_from_zips.html).
 {% endcapture %}
 {% include alerts/note.html content=extracting_blobs_from_zips %}
 
@@ -100,7 +100,7 @@ In case the build fails with an error like ``Assertion `cnt < (sizeof (_nl_value
 {% endif %}
 
 {% capture signing_builds %}
-Want to learn how to sign your own builds? Take a look at [Signing builds]({{ "signing_builds.html" | relative_url }}).
+Want to learn how to sign your own builds? Take a look at [Signing builds](https://wiki.lineageos.org/signing_builds.html).
 {% endcapture %}
 {% include alerts/tip.html content=signing_builds %}
 
